@@ -1,0 +1,10 @@
+$main-color: #F4F7F5;
+$accent-color: #91A8A4;
+
+body {
+  background-color: $main-color;
+  header {
+    background: $accent-color;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+}
