@@ -3,8 +3,31 @@ $accent-color: #91A8A4;
 
 body {
   background-color: $main-color;
+  text-align: center;
+  font-family: 'Trebuchet MS';
   header {
+    padding: 2em;
+    text-align: center;
     background: $accent-color;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+  h4{
+    text-align: center;
+    font-size: 2em;
+  }
+  button{
+    background-color: #090909;
+    color: $main-color;
+    margin: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 1em;
+  }
+  footer{
+    margin-top: 2em;
+  }
+  .red{
+    color: red;
   }
 }

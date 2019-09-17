@@ -27,13 +27,14 @@ class Counter extends React.Component {
     };
 
     render() {
+        const className = this.state.counter < 0 ? "red" : "default";
         return (
             <div>
-            <h4>{this.state.counter}</h4>
-            <button onClick={this.handleIncrementButtonClick}>Increment</button>
-            <button onClick={this.handleDecrementButtonClick}>Decrement</button>
+                <h4 className={`${className}`}>{this.state.counter}</h4>
+                <button onClick={this.handleIncrementButtonClick}>Increment</button>
+                <button onClick={this.handleDecrementButtonClick}>Decrement</button>
             </div>
-    );
+        );
     }
 }
 
