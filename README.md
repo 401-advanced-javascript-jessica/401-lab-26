@@ -9,7 +9,7 @@
 * [front-end](https://f2hg6.csb.app/)
 
 ### Components
-#### `counter.js`
+#### `counter.js` - not exported
 #### `footer.js`
 #### `header.js`
 
